@@ -4,7 +4,6 @@
 
 ![view](https://github.com/user-attachments/assets/46ddddc3-342e-412d-8c03-750c33654382)
 
-![view final]()
 
 🌐[Demo Project](https://shabnamshabanpour.github.io/First-Project/)
 
@@ -15,4 +14,4 @@
 🔍 Technologies Used - Html , css 
 
 
-- How to reach me : with my [instagram](https://www.instagram.com/shabnamshabanpour.dev/?hl=en) and [linkedin](https://www.linkedin.com/in/shabnam-shabanpour-15786671/)
+- 🔗How to reach me : with my 📸[instagram](https://www.instagram.com/shabnamshabanpour.dev/?hl=en) and 💼[linkedin](https://www.linkedin.com/in/shabnam-shabanpour-15786671/)
