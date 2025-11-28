@@ -14,4 +14,4 @@
 🔍 Technologies Used - Html , css 
 
 
-- 🔗How to reach me : with my 📸[instagram](https://www.instagram.com/shabnamshabanpour.dev/?hl=en) and 💼[linkedin](https://www.linkedin.com/in/shabnam-shabanpour-15786671/)
+🔗How to reach me : with my 📸[instagram](https://www.instagram.com/shabnamshabanpour.dev/?hl=en) and 💼[linkedin](https://www.linkedin.com/in/shabnam-shabanpour-15786671/)
