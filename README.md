@@ -2,7 +2,7 @@
 
 **If you have a lot of information to display on your site, why don't you use my accordion menu**
 
-![view](https://github.com/user-attachments/assets/46ddddc3-342e-412d-8c03-750c33654382)
+<img width="1882" height="893" alt="Image" src="https://github.com/user-attachments/assets/a64ece2a-c90a-48f0-91f4-31f188c6db1a" />
 
 
 🌐[Demo Project](https://shabnamshabanpour.github.io/First-Project/)
