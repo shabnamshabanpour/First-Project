@@ -1,6 +1,6 @@
 # First Project
 
-**If you have a lot of information to display on your site, why don't you use my accordion menu**
+**This is my first flex training which is Netflix website that has made with HTML & CSS**
 
 <img width="1882" height="893" alt="Image" src="https://github.com/user-attachments/assets/a64ece2a-c90a-48f0-91f4-31f188c6db1a" />
 
