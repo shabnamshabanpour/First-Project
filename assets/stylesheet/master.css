@@ -1,0 +1,425 @@
+.hero {
+    width: 100%;
+    min-height: 50vh;
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    padding: 0 8%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+
+    &::before {
+        content: '';
+        display: flex;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.748);
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    >header,
+    >.row {
+        position: relative;
+        z-index: 999;
+    }
+
+    >header {
+        width: 100%;
+        height: 100px;
+
+        >.row {
+            justify-content: space-between;
+            align-items: center;
+
+            >* {
+                height: 100%;
+            }
+
+            >figure {
+                display: flex;
+                align-items: center;
+
+                >img {
+                    width: 150px;
+                }
+            }
+
+            >div {
+                display: flex;
+                justify-content: end;
+                align-items: center;
+
+                &:hover {
+                    >a {
+                        background-color: rgb(147, 6, 6);
+                    }
+                }
+
+                >a {
+                    width: 80px;
+                    height: 38px;
+                    background-color: rgb(196, 11, 11);
+                    color: white;
+                    text-transform: capitalize;
+                    /* border: 2px solid white; */
+                    border-radius: 5px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    transition: .4s;
+                }
+
+            }
+        }
+    }
+
+    >.row {
+        /* background-color: gray; */
+        justify-content: center;
+        margin: 200px 0;
+
+        >div {
+            width: 40%;
+            height: 300px;
+            /* border: 1px solid white; */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+
+            >h1,
+            >h3,
+            >p {
+                width: 100%;
+                color: white;
+                margin: 20px 0;
+                text-align: center;
+            }
+
+            >h1 {
+                font-size: 60px;
+            }
+
+            >h3 {
+                font-size: 20px;
+            }
+
+            >form {
+                width: 100%;
+                height: 60px;
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+
+                >input {
+                    width: 350px;
+                    padding: 14px;
+                    border-radius: 4px;
+                    font-size: 16px;
+                    border: none;
+                    outline: none;
+                    background-color: rgba(0, 0, 0, 0.575);
+                    border: 1px solid rgba(255, 255, 255, 0.486);
+                }
+
+                >a {
+                    background-color: rgb(196, 11, 11);
+                    width: 160px;
+                    color: white;
+                    padding: 14px;
+                    border: none;
+                    border-radius: 4px;
+                    font-size: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-transform: capitalize;
+                    font-weight: bold;
+                    transition: .4s;
+
+                    &:hover {
+                        background-color: rgb(147, 6, 6);
+                    }
+
+                    >span {}
+
+                    >i {
+                        width: 25px;
+                        height: 25px;
+                        fill: white;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+/* ////end first section */
+main {
+    background-color: black;
+
+    >.poster {
+        width: 100%;
+        padding: 5%;
+
+        >.row {
+            margin-top: 25px;
+
+            >h3 {
+                color: white;
+                font-size: 30px;
+                margin: 20px 0px;
+            }
+
+            >div {
+                display: flex;
+                gap: 40px;
+
+                >figure {
+                    width: 200px;
+                    height: 300px;
+                    position: relative;
+                    margin-top: 20px;
+
+                    >img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        border-radius: 10px;
+                    }
+
+                    >span {
+                        position: absolute;
+                        bottom: 10px;
+                        left: -20px;
+                        font-size: 120px;
+                        font-weight: bold;
+                        color: black;
+                        -webkit-text-stroke: 1px white;
+                    }
+                }
+            }
+        }
+    }
+
+    /* end second section(poster) */
+    .box {
+        width: 100%;
+        padding: 5%;
+
+        >.row {
+            >div {
+                >h3 {
+                    color: white;
+                    font-size: 30px;
+                    margin-bottom: 40px;
+                }
+
+                >div {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 20px;
+
+                    >div {
+                        display: flex;
+                        flex-wrap: wrap;
+                        width: 300px;
+                        height: 300px;
+                        /* background-color: gray; */
+                        border-radius: 30px;
+                        background: #45095E;
+                        background: radial-gradient(circle, rgba(69, 9, 94, 0.96) 19%, rgba(30, 10, 48, 0.87) 87%);
+                        padding: 20px;
+                        color: white;
+
+                        >h3 {
+                            font-size: 25px;
+                        }
+
+                        >p {}
+
+                        >i {}
+                    }
+                }
+            }
+        }
+    }
+
+    /* end third section(box) */
+    .questionBox-section {
+        width: 100%;
+        padding: 5%;
+
+        .QbContainer {
+            width: 80%;
+            margin: auto;
+
+            >h1 {
+                font-size: 36px;
+                margin-bottom: 20px;
+                color: white;
+                text-transform: capitalize;
+            }
+
+            >.questionBox {
+                margin-bottom: 10px;
+                color: white;
+
+                &:hover {
+                    >label {
+                        background: #454545;
+                    }
+                }
+
+                &:checked {
+
+                    >input~,
+                    >div {
+                        max-height: 200px;
+                        padding: 25px;
+                    }
+                }
+
+
+
+                >input {
+                    display: none;
+
+                    &:checked~div {
+                        max-height: 200px;
+                        padding: 25px;
+                    }
+                    &:checked+label span{
+                        transform: rotate(45deg);
+                    }
+                }
+
+                >label {
+                    background: #303030;
+                    padding: 25px;
+                    font-size: 24px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    cursor: pointer;
+                    transition: background 0.3s ease;
+
+                    >span {
+                        font-size: 40px;
+                        transition: transform 0.3s ease;
+                    }
+                }
+
+                >div {
+                    max-height: 0;
+                    overflow: hidden;
+                    background: #303030;
+                    padding: 0 25px;
+                    transition: max-height 0.4s ease;
+
+                }
+
+
+            }
+
+            /* وقتی چک‌باکس فعال شود
+            .questionBox input:checked~div {
+                max-height: 200px;
+                padding: 25px;
+            } */
+
+            /* تبدیل+به × 
+            .questionBox input:checked+label span {
+                transform: rotate(45deg);
+            } */
+        }
+    }
+
+
+
+
+
+
+    /* end forth section(Qform)  */
+
+}
+
+.foot {
+    width: 100%;
+    padding: 70px 10%;
+    background-color: black;
+
+    >.row {
+        >div {
+            width: 50%;
+            /* border: 1px solid white; */
+            color: white;
+
+            >p {
+                margin-bottom: 40px;
+
+                >span {
+                    text-decoration: underline;
+                }
+            }
+
+            >ul {
+                display: flex;
+                flex-wrap: wrap;
+
+                >li {
+                    width: 50%;
+                    height: 40px;
+                    /* border: 1px solid red; */
+                    display: flex;
+                    align-items: center;
+
+                    >a {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+
+        >.mycard {
+            width: 50%;
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            justify-content: center;
+
+            >figure {
+                width: 200px;
+                height: 200px;
+                margin-bottom: 20px;
+                border-radius: 40px;
+
+                >img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 40px;
+                    box-shadow: 0 0 50px 5px purple;
+                }
+            }
+
+            >h4 {
+                font-size: 20px;
+                margin-bottom: 10px;
+
+                >.icons {
+
+                    >a {
+                        >img {}
+                    }
+                }
+            }
+
+        }
+    }
+
+
+}
